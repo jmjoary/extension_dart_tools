@@ -102,6 +102,7 @@ mixin MockMixin {
     lastReceivedObject = null;
     _preparedObjects.clear();
     receivedObjects.clear();
+    methodCallList.clear();
   }
 
   ///Receives a regular object and save it for the next function that will need to return something
